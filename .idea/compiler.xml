@@ -8,10 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jvm" />
         <module name="mq" />
+        <module name="websocket" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="jvm" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,8 +1,8 @@
 package com.xzj.jvm.exception;
 
-import java.lang.reflect.Field;
-
 import sun.misc.Unsafe;
+
+import java.lang.reflect.Field;
 
 /**
  *  使用unsafe分配本机内存
