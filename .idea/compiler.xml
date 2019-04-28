@@ -11,5 +11,11 @@
         <module name="websocket" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="advanced-java" target="1.5" />
+      <module name="jvm" target="6" />
+      <module name="mq" target="6" />
+      <module name="websocket" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
