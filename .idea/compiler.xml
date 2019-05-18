@@ -9,6 +9,8 @@
         <module name="client" />
         <module name="jvm" />
         <module name="mq" />
+        <module name="rmi-client" />
+        <module name="rmi-server" />
         <module name="server" />
         <module name="websocket" />
       </profile>
@@ -18,6 +20,9 @@
       <module name="client" target="1.5" />
       <module name="jvm" target="6" />
       <module name="mq" target="6" />
+      <module name="rmi" target="1.5" />
+      <module name="rmi-client" target="1.5" />
+      <module name="rmi-server" target="1.5" />
       <module name="rpc" target="1.5" />
       <module name="server" target="1.5" />
       <module name="socket-rpc" target="1.5" />
