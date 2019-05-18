@@ -12,6 +12,7 @@
         <module>mq</module>
         <module>jvm</module>
         <module>websocket</module>
+        <module>rpc</module>
     </modules>
 
 <dependencies>
