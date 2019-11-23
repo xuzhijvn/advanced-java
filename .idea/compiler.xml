@@ -9,6 +9,7 @@
         <module name="client" />
         <module name="jvm" />
         <module name="mq" />
+        <module name="protobuf" />
         <module name="rmi-client" />
         <module name="rmi-server" />
         <module name="server" />
@@ -20,6 +21,7 @@
       <module name="client" target="1.5" />
       <module name="jvm" target="6" />
       <module name="mq" target="6" />
+      <module name="protobuf" target="1.5" />
       <module name="rmi" target="1.5" />
       <module name="rmi-client" target="1.5" />
       <module name="rmi-server" target="1.5" />
