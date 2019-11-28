@@ -13,7 +13,21 @@
         <module name="rmi-client" />
         <module name="rmi-server" />
         <module name="server" />
+        <module name="socket-rpc-client" />
+        <module name="socket-rpc-server" />
         <module name="websocket" />
+      </profile>
+      <profile name="Annotation profile for server (1)" enabled="true">
+        <sourceOutputDir name="../../rpc/socket-rpc/server/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../rpc/socket-rpc/server/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rmi-server" />
+      </profile>
+      <profile name="Annotation profile for advanced-java" enabled="true">
+        <sourceOutputDir name="../../rpc/socket-rpc/client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../rpc/socket-rpc/client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rmi-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,7 +41,10 @@
       <module name="rmi-server" target="1.5" />
       <module name="rpc" target="1.5" />
       <module name="server" target="1.5" />
+      <module name="sleuth" target="1.8" />
       <module name="socket-rpc" target="1.5" />
+      <module name="socket-rpc-client" target="1.5" />
+      <module name="socket-rpc-server" target="1.5" />
       <module name="websocket" target="1.5" />
     </bytecodeTargetLevel>
   </component>
