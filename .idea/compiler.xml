@@ -7,32 +7,56 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-interface" />
+        <module name="dubbo-provider" />
+        <module name="eureka-server" />
+        <module name="eureka-server (1)" />
+        <module name="eureka-server (2)" />
+        <module name="eureka-server (3)" />
+        <module name="eureka-server (4)" />
+        <module name="eureka-server (5)" />
+        <module name="gateway-service" />
         <module name="jvm" />
         <module name="mq" />
         <module name="protobuf" />
         <module name="rmi-client" />
         <module name="rmi-server" />
         <module name="server" />
-        <module name="socket-rpc-client" />
-        <module name="socket-rpc-server" />
+        <module name="service-feign" />
+        <module name="service-feign (1)" />
+        <module name="service-feign (2)" />
+        <module name="service-hi" />
+        <module name="service-hi (1)" />
+        <module name="service-hi (2)" />
+        <module name="service-hi (3)" />
+        <module name="service-hi (4)" />
+        <module name="service-ribbon" />
+        <module name="service-ribbon (1)" />
+        <module name="service-ribbon (2)" />
+        <module name="service-ribbon (3)" />
+        <module name="service-zuul" />
+        <module name="springboot-dubbo" />
+        <module name="springcloud" />
+        <module name="user-service" />
         <module name="websocket" />
-      </profile>
-      <profile name="Annotation profile for server (1)" enabled="true">
-        <sourceOutputDir name="../../rpc/socket-rpc/server/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../rpc/socket-rpc/server/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="rmi-server" />
-      </profile>
-      <profile name="Annotation profile for advanced-java" enabled="true">
-        <sourceOutputDir name="../../rpc/socket-rpc/client/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../rpc/socket-rpc/client/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="rmi-client" />
+        <module name="zipkin-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="advanced-java" target="1.5" />
+      <module name="chapter-sleuth-mysql" target="1.8" />
       <module name="client" target="1.5" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-interface" target="1.5" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server (1)" target="1.8" />
+      <module name="eureka-server (2)" target="1.8" />
+      <module name="eureka-server (3)" target="1.8" />
+      <module name="eureka-server (4)" target="1.8" />
+      <module name="eureka-server (5)" target="1.8" />
+      <module name="gateway-service" target="1.8" />
       <module name="jvm" target="6" />
       <module name="mq" target="6" />
       <module name="protobuf" target="1.5" />
@@ -40,12 +64,57 @@
       <module name="rmi-client" target="1.5" />
       <module name="rmi-server" target="1.5" />
       <module name="rpc" target="1.5" />
+      <module name="sc-f-chapter1" target="1.8" />
+      <module name="sc-f-chapter2" target="1.8" />
+      <module name="sc-f-chapter3" target="1.8" />
+      <module name="sc-f-chapter4" target="1.8" />
+      <module name="sc-f-chapter5" target="1.8" />
       <module name="server" target="1.5" />
-      <module name="sleuth" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-feign (1)" target="1.8" />
+      <module name="service-feign (2)" target="1.8" />
+      <module name="service-hi" target="1.8" />
+      <module name="service-hi (1)" target="1.8" />
+      <module name="service-hi (2)" target="1.8" />
+      <module name="service-hi (3)" target="1.8" />
+      <module name="service-hi (4)" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-ribbon (1)" target="1.8" />
+      <module name="service-ribbon (2)" target="1.8" />
+      <module name="service-ribbon (3)" target="1.8" />
+      <module name="service-zuul" target="1.8" />
       <module name="socket-rpc" target="1.5" />
       <module name="socket-rpc-client" target="1.5" />
       <module name="socket-rpc-server" target="1.5" />
+      <module name="springboot-dubbo" target="1.5" />
+      <module name="springcloud" target="1.5" />
+      <module name="user-service" target="1.8" />
       <module name="websocket" target="1.5" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="eureka-server (1)" options="-parameters" />
+      <module name="eureka-server (2)" options="-parameters" />
+      <module name="eureka-server (3)" options="-parameters" />
+      <module name="eureka-server (4)" options="-parameters" />
+      <module name="eureka-server (5)" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
+      <module name="service-feign (1)" options="-parameters" />
+      <module name="service-feign (2)" options="-parameters" />
+      <module name="service-hi" options="-parameters" />
+      <module name="service-hi (1)" options="-parameters" />
+      <module name="service-hi (2)" options="-parameters" />
+      <module name="service-hi (3)" options="-parameters" />
+      <module name="service-hi (4)" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
+      <module name="service-ribbon (1)" options="-parameters" />
+      <module name="service-ribbon (2)" options="-parameters" />
+      <module name="service-ribbon (3)" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
+    </option>
   </component>
 </project>
