@@ -17,6 +17,13 @@
         <module>protobuf</module>
         <module>springcloud</module>
         <module>springboot-dubbo</module>
+        <module>zookeeper</module>
+        <module>zookeeper</module>
+        <module>zookeeper</module>
+        <module>zookeeper</module>
+        <module>xx</module>
+        <module>zookeeper</module>
+        <module>zk</module>
     </modules>
 
 <dependencies>
