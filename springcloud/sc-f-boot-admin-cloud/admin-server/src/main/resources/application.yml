@@ -30,8 +30,8 @@ management:
 
 
 spring.mail.host: smtp.qq.com
-spring.mail.username: 783175223@qq.com
-spring.mail.password: ssfrsgxyzpdebaih
-spring.boot.admin.notify.mail.to: xuzhijun19920121@icloud.com
-spring.boot.admin.notify.mail.from: 783175223@qq.com
+spring.mail.username: 发件账号
+spring.mail.password: qq授权码
+spring.boot.admin.notify.mail.to: 收件账号
+spring.boot.admin.notify.mail.from: 发件账号
 
