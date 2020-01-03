@@ -32,7 +32,6 @@ public class RequestTimeFilter implements GatewayFilter, Ordered {
                     }
                 })
         );
-
     }
 
     @Override
