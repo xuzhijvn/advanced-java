@@ -1,0 +1,19 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 9411
+spring:
+  application:
+    name: zipkin-server
+  sleuth:
+    enabled: false
+###### 不需要显示设置rabbitmq的默认配置，引入spring-cloud-stream-binder-rabbit-core中的RabbitBindingCleaner会自动设置以下默认配置
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+
+#spring.sleuth.sampler.percentage: 1.0
