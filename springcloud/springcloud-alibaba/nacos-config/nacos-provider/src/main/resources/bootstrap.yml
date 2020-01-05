@@ -1,3 +1,4 @@
+##此时server.port无效，会优先加载配置在配置中心的server.port
 server:
   port: 8762
 spring:

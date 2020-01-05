@@ -44,7 +44,6 @@
         <module name="service-ribbon (1)" />
         <module name="eureka-server (6)" />
         <module name="service-lucy" />
-        <module name="nacos-consumer (1)" />
         <module name="config-server (2)" />
         <module name="nacos-provider" />
         <module name="sc-f-gateway-filter" />
