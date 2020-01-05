@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sc-f-gateway-predicate" />
+        <module name="eureka-server (8)" />
+        <module name="user-service (2)" />
         <module name="service2-zipkin" />
-        <module name="service-turbine" />
+        <module name="jvm" />
         <module name="springcloud" />
         <module name="service-hi (1)" />
         <module name="sc-f-gateway-first-sight" />
@@ -23,9 +24,7 @@
         <module name="service-ribbon (2)" />
         <module name="eureka-server (7)" />
         <module name="service-hi" />
-        <module name="websocket" />
         <module name="admin-server (1)" />
-        <module name="user-service" />
         <module name="config-client (1)" />
         <module name="eureka-server (10)" />
         <module name="service-zuul" />
@@ -38,25 +37,27 @@
         <module name="service-ribbon (1)" />
         <module name="eureka-server (6)" />
         <module name="service-lucy" />
-        <module name="protobuf" />
+        <module name="sc-f-gateway-predicate" />
         <module name="config-server (2)" />
         <module name="sc-f-gateway-filter" />
         <module name="server" />
-        <module name="zk" />
-        <module name="service-gateway" />
+        <module name="consul-provider" />
+        <module name="sc-f-gateway-limiter" />
         <module name="service-feign (2)" />
         <module name="dubbo-interface" />
         <module name="service-hi (4)" />
         <module name="service-feign (1)" />
         <module name="eureka-server (14)" />
-        <module name="eureka-server (5)" />
+        <module name="protobuf" />
         <module name="rmi-client" />
         <module name="mq" />
+        <module name="consul-provider (1)" />
         <module name="rmi-server" />
         <module name="config-server (1)" />
         <module name="dubbo-consumer" />
         <module name="zipkin-server" />
         <module name="admin-server" />
+        <module name="consul-consumer" />
         <module name="service-ribbon" />
         <module name="service-hi (3)" />
         <module name="config-server" />
@@ -65,25 +66,27 @@
         <module name="service-hi (8)" />
         <module name="user-service (3)" />
         <module name="admin-client" />
+        <module name="zk" />
         <module name="eureka-server (9)" />
         <module name="config-client" />
         <module name="zipkin-server (3)" />
         <module name="springboot-dubbo" />
         <module name="client" />
+        <module name="eureka-server (2)" />
         <module name="admin-client (1)" />
         <module name="service-hi (2)" />
         <module name="eureka-server (12)" />
-        <module name="gateway-service (3)" />
         <module name="eureka-server (3)" />
-        <module name="service-hi (7)" />
-        <module name="jvm" />
-        <module name="user-service (2)" />
+        <module name="gateway-service (3)" />
+        <module name="service-turbine" />
+        <module name="user-service" />
         <module name="zipkin-server (2)" />
         <module name="service-ribbon (3)" />
-        <module name="eureka-server (8)" />
+        <module name="websocket" />
         <module name="eureka-server" />
-        <module name="eureka-server (2)" />
-        <module name="sc-f-gateway-limiter" />
+        <module name="service-gateway" />
+        <module name="service-hi (7)" />
+        <module name="eureka-server (5)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -103,6 +106,12 @@
       <module name="config-server" target="1.8" />
       <module name="config-server (1)" target="1.8" />
       <module name="config-server (2)" target="1.8" />
+      <module name="consul-configuration-center" target="1.8" />
+      <module name="consul-consumer" target="1.8" />
+      <module name="consul-consumer (1)" target="1.8" />
+      <module name="consul-provider" target="1.8" />
+      <module name="consul-provider (1)" target="1.8" />
+      <module name="consul-registration-center" target="1.8" />
       <module name="dubbo-consumer" target="1.8" />
       <module name="dubbo-interface" target="1.5" />
       <module name="dubbo-provider" target="1.8" />
@@ -199,6 +208,10 @@
       <module name="config-server" options="-parameters" />
       <module name="config-server (1)" options="-parameters" />
       <module name="config-server (2)" options="-parameters" />
+      <module name="consul-consumer" options="-parameters" />
+      <module name="consul-consumer (1)" options="-parameters" />
+      <module name="consul-provider" options="-parameters" />
+      <module name="consul-provider (1)" options="-parameters" />
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />
       <module name="eureka-server (1)" options="-parameters" />

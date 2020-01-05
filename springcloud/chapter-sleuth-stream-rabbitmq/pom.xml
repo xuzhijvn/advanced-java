@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.forezp</groupId>
-	<artifactId>sleuth</artifactId>
+	<artifactId>chapter-sleuth-stream-rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
