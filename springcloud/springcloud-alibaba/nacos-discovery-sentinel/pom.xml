@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.forezp</groupId>
-	<artifactId>nacos-discovery</artifactId>
+	<artifactId>nacos-discovery-sentinel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>nacos-discovery</name>
 	<description>Demo project for Spring Boot</description>
