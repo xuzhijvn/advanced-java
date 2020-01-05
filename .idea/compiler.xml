@@ -25,6 +25,7 @@
         <module name="eureka-server (7)" />
         <module name="service-hi" />
         <module name="admin-server (1)" />
+        <module name="config-server (3)" />
         <module name="config-client (1)" />
         <module name="eureka-server (10)" />
         <module name="service-zuul" />
@@ -75,6 +76,7 @@
         <module name="eureka-server (2)" />
         <module name="admin-client (1)" />
         <module name="service-hi (2)" />
+        <module name="config-client (3)" />
         <module name="eureka-server (12)" />
         <module name="eureka-server (3)" />
         <module name="gateway-service (3)" />
@@ -100,12 +102,15 @@
       <module name="chapter-sleuth-stream-elasticsearch" target="1.8" />
       <module name="chapter-sleuth-stream-mysql" target="1.8" />
       <module name="chapter-sleuth-stream-rabbitmq" target="1.8" />
+      <module name="chapter10-5-jdbc" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-client (1)" target="1.8" />
       <module name="config-client (2)" target="1.8" />
+      <module name="config-client (3)" target="1.5" />
       <module name="config-server" target="1.8" />
       <module name="config-server (1)" target="1.8" />
       <module name="config-server (2)" target="1.8" />
+      <module name="config-server (3)" target="1.5" />
       <module name="consul-configuration-center" target="1.8" />
       <module name="consul-consumer" target="1.8" />
       <module name="consul-consumer (1)" target="1.8" />
@@ -205,9 +210,11 @@
       <module name="config-client" options="-parameters" />
       <module name="config-client (1)" options="-parameters" />
       <module name="config-client (2)" options="-parameters" />
+      <module name="config-client (3)" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="config-server (1)" options="-parameters" />
       <module name="config-server (2)" options="-parameters" />
+      <module name="config-server (3)" options="-parameters" />
       <module name="consul-consumer" options="-parameters" />
       <module name="consul-consumer (1)" options="-parameters" />
       <module name="consul-provider" options="-parameters" />
