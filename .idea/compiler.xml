@@ -6,36 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server (8)" />
-        <module name="user-service (1)" />
-        <module name="user-service (2)" />
         <module name="sc-f-gateway-predicate" />
         <module name="service2-zipkin" />
-        <module name="jvm" />
+        <module name="service-turbine" />
         <module name="springcloud" />
         <module name="service-hi (1)" />
         <module name="sc-f-gateway-first-sight" />
         <module name="config-client (2)" />
         <module name="eureka-server (11)" />
         <module name="service-feign" />
-        <module name="eureka-server (2)" />
+        <module name="dubbo-provider" />
         <module name="service-hi (6)" />
         <module name="gateway-service (2)" />
-        <module name="zk" />
+        <module name="user-service (1)" />
         <module name="zipkin-server (1)" />
         <module name="service-ribbon (2)" />
         <module name="eureka-server (7)" />
         <module name="service-hi" />
+        <module name="websocket" />
         <module name="admin-server (1)" />
+        <module name="user-service" />
         <module name="config-client (1)" />
-        <module name="gateway-service" />
         <module name="eureka-server (10)" />
         <module name="service-zuul" />
         <module name="service-zipkin" />
         <module name="eureka-server (1)" />
         <module name="service-hi (5)" />
-        <module name="service-feign (2)" />
+        <module name="gateway-service" />
         <module name="gateway-service (1)" />
+        <module name="eureka-server (15)" />
         <module name="service-ribbon (1)" />
         <module name="eureka-server (6)" />
         <module name="service-lucy" />
@@ -43,7 +42,9 @@
         <module name="config-server (2)" />
         <module name="sc-f-gateway-filter" />
         <module name="server" />
-        <module name="dubbo-provider" />
+        <module name="zk" />
+        <module name="service-gateway" />
+        <module name="service-feign (2)" />
         <module name="dubbo-interface" />
         <module name="service-hi (4)" />
         <module name="service-feign (1)" />
@@ -62,23 +63,26 @@
         <module name="eureka-server (13)" />
         <module name="eureka-server (4)" />
         <module name="service-hi (8)" />
+        <module name="user-service (3)" />
         <module name="admin-client" />
         <module name="eureka-server (9)" />
         <module name="config-client" />
+        <module name="zipkin-server (3)" />
         <module name="springboot-dubbo" />
         <module name="client" />
         <module name="admin-client (1)" />
         <module name="service-hi (2)" />
         <module name="eureka-server (12)" />
+        <module name="gateway-service (3)" />
         <module name="eureka-server (3)" />
         <module name="service-hi (7)" />
-        <module name="service-turbine" />
-        <module name="user-service" />
+        <module name="jvm" />
+        <module name="user-service (2)" />
         <module name="zipkin-server (2)" />
         <module name="service-ribbon (3)" />
-        <module name="websocket" />
+        <module name="eureka-server (8)" />
         <module name="eureka-server" />
-        <module name="service-gateway" />
+        <module name="eureka-server (2)" />
         <module name="sc-f-gateway-limiter" />
       </profile>
     </annotationProcessing>
@@ -109,6 +113,7 @@
       <module name="eureka-server (12)" target="1.8" />
       <module name="eureka-server (13)" target="1.8" />
       <module name="eureka-server (14)" target="1.8" />
+      <module name="eureka-server (15)" target="1.8" />
       <module name="eureka-server (2)" target="1.8" />
       <module name="eureka-server (3)" target="1.8" />
       <module name="eureka-server (4)" target="1.8" />
@@ -120,6 +125,7 @@
       <module name="gateway-service" target="1.8" />
       <module name="gateway-service (1)" target="1.8" />
       <module name="gateway-service (2)" target="1.8" />
+      <module name="gateway-service (3)" target="1.8" />
       <module name="jvm" target="6" />
       <module name="mq" target="6" />
       <module name="protobuf" target="1.5" />
@@ -172,10 +178,12 @@
       <module name="user-service" target="1.8" />
       <module name="user-service (1)" target="1.8" />
       <module name="user-service (2)" target="1.8" />
+      <module name="user-service (3)" target="1.8" />
       <module name="websocket" target="1.5" />
       <module name="zipkin-server" target="1.8" />
       <module name="zipkin-server (1)" target="1.8" />
       <module name="zipkin-server (2)" target="1.8" />
+      <module name="zipkin-server (3)" target="1.8" />
       <module name="zk" target="1.5" />
     </bytecodeTargetLevel>
   </component>
