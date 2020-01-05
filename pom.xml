@@ -24,6 +24,7 @@
         <module>xx</module>
         <module>zookeeper</module>
         <module>zk</module>
+        <module>springcloud-alibaba</module>
     </modules>
 
 <dependencies>

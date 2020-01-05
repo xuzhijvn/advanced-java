@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server (8)" />
-        <module name="user-service (2)" />
+        <module name="sc-f-gateway-predicate" />
         <module name="service2-zipkin" />
-        <module name="jvm" />
+        <module name="service-turbine" />
         <module name="springcloud" />
+        <module name="nacos-provider (2)" />
         <module name="service-hi (1)" />
         <module name="sc-f-gateway-first-sight" />
         <module name="config-client (2)" />
@@ -21,15 +21,21 @@
         <module name="gateway-service (2)" />
         <module name="user-service (1)" />
         <module name="zipkin-server (1)" />
+        <module name="springcloud-alibaba" />
         <module name="service-ribbon (2)" />
         <module name="eureka-server (7)" />
         <module name="service-hi" />
+        <module name="websocket" />
+        <module name="nacos-consumer" />
         <module name="admin-server (1)" />
+        <module name="nacos-consumer (2)" />
         <module name="config-server (3)" />
+        <module name="user-service" />
+        <module name="nacos-provider (1)" />
         <module name="config-client (1)" />
         <module name="eureka-server (10)" />
         <module name="service-zuul" />
-        <module name="service-zipkin" />
+        <module name="zk" />
         <module name="eureka-server (1)" />
         <module name="service-hi (5)" />
         <module name="gateway-service" />
@@ -38,12 +44,14 @@
         <module name="service-ribbon (1)" />
         <module name="eureka-server (6)" />
         <module name="service-lucy" />
-        <module name="sc-f-gateway-predicate" />
+        <module name="nacos-consumer (1)" />
         <module name="config-server (2)" />
+        <module name="nacos-provider" />
         <module name="sc-f-gateway-filter" />
         <module name="server" />
+        <module name="eureka-server (5)" />
         <module name="consul-provider" />
-        <module name="sc-f-gateway-limiter" />
+        <module name="service-gateway" />
         <module name="service-feign (2)" />
         <module name="dubbo-interface" />
         <module name="service-hi (4)" />
@@ -53,6 +61,7 @@
         <module name="rmi-client" />
         <module name="mq" />
         <module name="consul-provider (1)" />
+        <module name="service-zipkin" />
         <module name="rmi-server" />
         <module name="config-server (1)" />
         <module name="dubbo-consumer" />
@@ -67,28 +76,26 @@
         <module name="service-hi (8)" />
         <module name="user-service (3)" />
         <module name="admin-client" />
-        <module name="zk" />
         <module name="eureka-server (9)" />
         <module name="config-client" />
         <module name="zipkin-server (3)" />
         <module name="springboot-dubbo" />
         <module name="client" />
-        <module name="eureka-server (2)" />
         <module name="admin-client (1)" />
         <module name="service-hi (2)" />
         <module name="config-client (3)" />
         <module name="eureka-server (12)" />
         <module name="eureka-server (3)" />
         <module name="gateway-service (3)" />
-        <module name="service-turbine" />
-        <module name="user-service" />
+        <module name="jvm" />
+        <module name="user-service (2)" />
         <module name="zipkin-server (2)" />
         <module name="service-ribbon (3)" />
-        <module name="websocket" />
+        <module name="eureka-server (8)" />
         <module name="eureka-server" />
-        <module name="service-gateway" />
+        <module name="eureka-server (2)" />
         <module name="service-hi (7)" />
-        <module name="eureka-server (5)" />
+        <module name="sc-f-gateway-limiter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -142,6 +149,15 @@
       <module name="gateway-service (3)" target="1.8" />
       <module name="jvm" target="6" />
       <module name="mq" target="6" />
+      <module name="nacos-config" target="1.5" />
+      <module name="nacos-consumer" target="1.8" />
+      <module name="nacos-consumer (1)" target="1.8" />
+      <module name="nacos-consumer (2)" target="1.8" />
+      <module name="nacos-discovery" target="1.5" />
+      <module name="nacos-discovery-sentinel" target="1.5" />
+      <module name="nacos-provider" target="1.8" />
+      <module name="nacos-provider (1)" target="1.8" />
+      <module name="nacos-provider (2)" target="1.8" />
       <module name="protobuf" target="1.5" />
       <module name="rmi" target="1.5" />
       <module name="rpc" target="1.5" />
@@ -189,6 +205,7 @@
       <module name="socket-rpc" target="1.5" />
       <module name="springboot-dubbo" target="1.5" />
       <module name="springcloud" target="1.5" />
+      <module name="springcloud-alibaba" target="1.5" />
       <module name="user-service" target="1.8" />
       <module name="user-service (1)" target="1.8" />
       <module name="user-service (2)" target="1.8" />
@@ -233,6 +250,12 @@
       <module name="eureka-server (7)" options="-parameters" />
       <module name="eureka-server (8)" options="-parameters" />
       <module name="eureka-server (9)" options="-parameters" />
+      <module name="nacos-consumer" options="-parameters" />
+      <module name="nacos-consumer (1)" options="-parameters" />
+      <module name="nacos-consumer (2)" options="-parameters" />
+      <module name="nacos-provider" options="-parameters" />
+      <module name="nacos-provider (1)" options="-parameters" />
+      <module name="nacos-provider (2)" options="-parameters" />
       <module name="sc-f-gateway-filter" options="-parameters" />
       <module name="sc-f-gateway-first-sight" options="-parameters" />
       <module name="sc-f-gateway-limiter" options="-parameters" />
